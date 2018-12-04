@@ -17,13 +17,13 @@ class Agent():
 #make the agents move 
     def move(self):        
         if random.random() < 0.5:
-            self.y = (self.y + 1) % 100
+            self.y = (self.y + 1) % 300
         else:
-            self.y = (self.y - 1) % 100
+            self.y = (self.y - 1) % 300
         if random.random() < 0.5:
-            self.x = (self.x + 1) % 100
+            self.x = (self.x + 1) % 300
         else:
-            self.x = (self.x - 1) % 100
+            self.x = (self.x - 1) % 300
 #interact with neighbors(model 23 nov)
     def share_with_neighbours(self, neighbourhood):
         for agent in self.agents:

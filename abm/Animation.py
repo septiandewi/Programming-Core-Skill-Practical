@@ -56,7 +56,7 @@ matplotlib.pyplot.show()
 #Making the agents, connect it with environment and make their activity
 #=======================================================================
 num_of_agents = 10 #number of agents will be created
-num_of_iterations = 10 #number of agent's interation
+num_of_iterations = 10 #number of agent's iteration
 neighbourhood = 20 #number of limitation distance to each agent to reach another agent
 agents = [] #make container for agents
 for i in range(num_of_agents):
@@ -84,3 +84,4 @@ def update(frame_number): #make definition of frame number in animation
 animation = matplotlib.animation.FuncAnimation(fig, update, interval=10)#making animation with unlimited movement    
 
 matplotlib.pyplot.show()
+
