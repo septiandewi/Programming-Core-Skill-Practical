@@ -68,7 +68,7 @@ for i in range(num_of_agents):
 carry_on = True
 
 #==============================================================================
-# Make the animation that show agent's activity
+# Make the animation that show agent's activity.
 #==============================================================================
 
 #define the animation

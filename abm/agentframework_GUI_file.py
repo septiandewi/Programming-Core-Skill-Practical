@@ -37,7 +37,7 @@ class Agent():
             self.x = (self.x + 1) % 100
         else:
             self.x = (self.x - 1) % 100
-#interact with neighbors
+#interact with neighbors.
     def share_with_neighbours(self, neighbourhood):
         for agent in self.agents:
             dist = self.distance_between(agent) 
